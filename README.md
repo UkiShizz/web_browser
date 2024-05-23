@@ -6,7 +6,7 @@
 ## Установка
 1. Клонируйте репозиторий:
     ```
-    git clone https://github.com/yourusername/web_browser.git
+    git clone https://github.com/UkiShizz/web_browser.git
     ```
 2. Установите зависимости:
     ```
