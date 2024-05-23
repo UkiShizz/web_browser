@@ -13,4 +13,8 @@ class BrowserEngine(QWebEngineView):
         if result:
             print("Загрузка завершена")
         else:
-            print("Ошибка загрузки")
+            try:
+                # Handle the error
+                print("Ошибка загрузки: Страница не может быть загружена.")
+            except Exception as e:
+                print(f"Ошибка загрузки: {str(e)}")

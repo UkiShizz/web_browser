@@ -2,6 +2,10 @@ import os
 import requests
 from PyQt5.QtCore import QObject, pyqtSignal
 
+import os
+import requests
+from PyQt5.QtCore import QObject, pyqtSignal
+
 class Downloader(QObject):
     download_started = pyqtSignal(str)
     download_progress = pyqtSignal(int)
