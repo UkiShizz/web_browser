@@ -2,6 +2,10 @@ import os
 import json
 from datetime import datetime
 
+import os
+import json
+from datetime import datetime
+
 class HistoryManager:
     def __init__(self, history_file="history.json"):
         self.history_file = history_file
